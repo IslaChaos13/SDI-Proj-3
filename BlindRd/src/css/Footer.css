@@ -1,54 +1,77 @@
- /* ── FOOTER ── */
-    footer {
-      background: #060a06;
-      padding: 3rem 2.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-      border-top: 1px solid #141f14;
-    }
+/* ── FOOTER ── */
+footer {
+	background: #060a06;
+	padding: 3rem 2.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	border-top: 1px solid #141f14;
+}
 
-    .footer-logo {
-      font-family: var(--display);
-      font-weight: 900;
-      font-size: 1.2rem;
-      letter-spacing: 0.2em;
-      color: var(--concrete);
-    }
+.footer-logo {
+	font-family: var(--display);
+	font-weight: 900;
+	font-size: 1.2rem;
+	letter-spacing: 0.2em;
+	color: var(--concrete);
+}
 
-    .footer-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
+.footer-links {
+	display: flex;
+	gap: 2rem;
+	list-style: none;
+}
 
-    .footer-links a {
-      font-size: 0.7rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--olive);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
+.footer-links a {
+	font-size: 0.7rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--olive);
+	text-decoration: none;
+	transition: color 0.2s;
+}
 
-    .footer-links a:hover { color: var(--off-white); }
+.footer-links a:hover {
+	color: var(--off-white);
+}
 
-    .footer-copy {
-      font-size: 0.65rem;
-      color: #3a3a3a;
-      letter-spacing: 0.1em;
-    }
+.footer-copy {
+	font-size: 0.65rem;
+	color: #3a3a3a;
+	letter-spacing: 0.1em;
+}
 
-    @media (max-width: 600px) {
-      nav { padding: 1rem 1.25rem; }
-      .nav-links { gap: 1.25rem; }
-      .hero { padding: 0 1.25rem 3rem; }
-      section { padding: 4rem 1.25rem; }
-      .drop { padding: 4rem 1.25rem; }
-      footer { padding: 2.5rem 1.25rem; flex-direction: column; align-items: flex-start; }
-      .about { padding: 4rem 1.25rem; }
-      .email-row { flex-direction: column; }
-      .email-row input, .email-row .btn { border: 1px solid rgba(240,237,232,0.3); }
-    }
+@media (max-width: 600px) {
+	nav {
+		padding: 1rem 1.25rem;
+	}
+	.nav-links {
+		gap: 1.25rem;
+	}
+	.hero {
+		padding: 0 1.25rem 3rem;
+	}
+	section {
+		padding: 4rem 1.25rem;
+	}
+	.drop {
+		padding: 4rem 1.25rem;
+	}
+	footer {
+		padding: 2.5rem 1.25rem;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.about {
+		padding: 4rem 1.25rem;
+	}
+	.email-row {
+		flex-direction: column;
+	}
+	.email-row input,
+	.email-row .btn {
+		border: 1px solid rgba(240, 237, 232, 0.3);
+	}
+}
