@@ -195,7 +195,7 @@ app.get('/users', (req, res) => {
     .catch(err => res.status(500).json({ error: err.message }));
 });
 
-app.get('/users/:user_id', (req, res) => {
+app.get('/my-account', (req, res) => {
     const { user_id } = req.params;
 
   knex('users')

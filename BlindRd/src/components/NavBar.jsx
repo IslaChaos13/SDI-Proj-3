@@ -18,8 +18,8 @@ export default function Navbar() {
 
     return (
         <>
-        <a class="nav-logo" href="#" onClick= {() => navigate('/')}>BLIND RD.</a>
-        <ul class="nav-links">
+        <a className="nav-logo" href="#" onClick= {() => navigate('/')}>BLIND RD.</a>
+        <ul className="nav-links">
 
 
             <li><a href="#signup" onClick={() => navigate('/signup')}>Sign up</a></li>
