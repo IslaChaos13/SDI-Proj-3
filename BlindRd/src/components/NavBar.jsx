@@ -30,7 +30,7 @@ export default function Navbar() {
 
         <li><a href="#drop" onClick={() => {navigate('/collection')}}>Collection</a></li>
 
-        <li><a href="#about" onClick={() => {navigate('/about')}}>About</a></li>
+
 
         </ul>
         </>

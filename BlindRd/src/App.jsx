@@ -6,7 +6,7 @@ import SignUpForm from './pages/SignUpForm'
 import Login from './pages/Login'
 import MyAccount from './pages/MyAccount'
 import ProtectedRoute from './components/ProtectedRoute'
-import About from './pages/About'
+
 
 
 const router = createBrowserRouter([
@@ -31,9 +31,7 @@ const router = createBrowserRouter([
       </ProtectedRoute>
     )
   },
-  {path: '/about',
-    element: <About />
-  }
+
 
 
 ]);

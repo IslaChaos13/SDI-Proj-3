@@ -151,44 +151,6 @@
       to { transform: translateX(-50%); }
     }
 
-    /* About */
-
-.about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
-}
-
-
-.about-visual {
-  position: relative;
-  width: 100%;
-  max-width: 450px;
-  aspect-ratio: 4 / 5;
-  overflow: hidden;
-  background: #101810;
-}
-
-
-.about-visual img {
-  object-fit: cover;
-}
-
-.about-stats{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 4 rem;
-  text-align: center;
-}
-
-
-.about-text {
-  max-width: 500px;
-}
 
 
 @media (max-width: 800px) {
